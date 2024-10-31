@@ -84,7 +84,7 @@ MOV 111, 7
 MOV 114, 8
 MOV 108, 9
 MOV 100, 10
-"""
+""" # sadly there is no io so i have to write hello world at memory cells :(
 
 nasm_output = assemblyfuck_to_nasm(assemblyfuck_code)
 print(nasm_output)
